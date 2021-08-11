@@ -1,7 +1,7 @@
 import React, { Suspense } from 'react'
 import { Route, Switch } from 'react-router-dom';
 
-import { SideBar } from 'Layout/sidebar/index';
+import { SideBar } from 'Layout/index';
 import Spinner from 'Components/Spinner';
 
 const Dashboard = React.lazy(() => import('Pages/Dashboard/index'))

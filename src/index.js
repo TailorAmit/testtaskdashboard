@@ -5,6 +5,7 @@ import App from './App';
 import { createBrowserHistory } from 'history';
 import reportWebVitals from './reportWebVitals';
 import { Router } from 'react-router-dom';
+import 'antd/dist/antd.css';
 export const history = createBrowserHistory();
 
 ReactDOM.render(

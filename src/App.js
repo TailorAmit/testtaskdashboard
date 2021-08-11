@@ -4,7 +4,7 @@ import Routers from './router';
 
 function App() {
   return (
-    <div>
+    <div style={{ backgroundColor: "#eaeff5",height:window.innerHeight,width:window.innerWidth }}>
       <Routers />
     </div>
   );
