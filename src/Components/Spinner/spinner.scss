@@ -1,0 +1,24 @@
+.spinner-wrapper {
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  .ant-spin-spinning {
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    .ant-spin-dot {
+      .ant-spin-dot-item {
+        background-color: #171855;
+      }
+    }
+    .ant-spin-text {
+      color: #171855;
+    }
+    span {
+      margin-right: 10px;
+    }
+  }
+}
